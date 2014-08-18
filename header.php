@@ -11,9 +11,9 @@
     ?>
   </title>
 
-  <link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
-  <link type="text/css" rel="stylesheet" media="all" href="css/fonts.css" />
-  <link type="text/css" rel="stylesheet" media="all" href="css/style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="<?=get_template_directory_uri();?>/css/reset.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="<?=get_template_directory_uri();?>/css/fonts.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="<?=get_template_directory_uri();?>/css/style.css" />
 
   <?php wp_head(); ?>
 </head>

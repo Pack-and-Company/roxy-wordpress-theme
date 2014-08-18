@@ -10,14 +10,14 @@
 
 		<div class="col logo center">
 			<object type="application/x-shockwave-flash" 
-				data="flash/roxy-sign.swf" 
+				data="<?=get_template_directory_uri();?>/flash/roxy-sign.swf" 
 				width="215" 
 				height="661" 
 				id="roxy-sign" 
 				style="visibility: visible;">
 				<param name="quality" value="high">
 				<param name="wmode" value="transparent">
-				<img src="images/roxy-sign.jpg">
+				<img src="<?=get_template_directory_uri();?>/images/roxy-sign.jpg">
 			</object>
 		</div>
 
