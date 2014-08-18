@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Flyweight';
+		src: url('../fonts/Knockout-HTF46-Flyweight.eot'),
+		url('../fonts/Knockout-HTF46-Flyweight.woff') format('woff'), 
+		url('../fonts/Knockout-HTF46-Flyweight.ttf') format('truetype'), 
+		url('../fonts/Knockout-HTF46-Flyweight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'sfmovieposter';
+		src: url('../fonts/sfmovieposter-webfont.eot'),
+		url('../fonts/sfmovieposter-webfont.woff') format('woff'), 
+		url('../fonts/sfmovieposter-webfont.ttf') format('truetype'), 
+		url('../fonts/sfmovieposter-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'sfmovieposter-bold';
+		src: url('../fonts/sfmovieposter-bold-webfont.eot'),
+		url('../fonts/sfmovieposter-bold-webfont.woff') format('woff'), 
+		url('../fonts/sfmovieposter-bold-webfont.ttf') format('truetype'), 
+		url('../fonts/sfmovieposter-bold-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
