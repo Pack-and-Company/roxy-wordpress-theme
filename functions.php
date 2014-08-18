@@ -1,9 +1,9 @@
 <?php
 
-register_nav_menus( array('primary' => 'Primary Menu') );
 register_sidebar( array('name' => 'Sidebar') );
 
 add_theme_support( 'automatic-feed-links' );
+add_theme_support( 'post-thumbnails' );
 
 function my_init_method() {
   if(!is_admin()) {
@@ -13,5 +13,7 @@ function my_init_method() {
   }
 }
 add_action('init', 'my_init_method');
+
+include(TEMPLATEPATH . '/events-custom-post.php');
 
 ?>
