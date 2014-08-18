@@ -1,0 +1,46 @@
+html{
+	-webkit-font-smoothing: antialiased;
+}
+
+body{
+	font: normal normal normal 14px Gill Sans, sans-serif; line-height: 18px;
+}
+
+p{ margin-bottom: 10px; }
+
+/* Heading styles */
+
+h2{ 
+	font-family: Arial, sans-serif; text-transform: uppercase; font-size: 18px; letter-spacing: 3px; line-height: 40px;
+	position: relative; display: inline-block; padding: 0 20px; background-color: #000; z-index: 8;
+}
+	.wf-active h2{ font-family: 'sfmovieposter-bold'; font-size: 36px; }
+		.bkg-line, .staff-bkg-line{ position: absolute; width: 100%; border-bottom: 1px dotted #c1b49a; top: 20px; left: 0px; }
+			.staff-bkg-line{ width: 900px; }
+			.pane-block-3 .bkg-line{ top: 5px; }
+	
+.pane-page-views-panel-pane-3 h2.pane-title{ font-size: 14px; padding: 0; line-height: 25px; }
+	.wf-active .pane-page-views-panel-pane-3 h2.pane-title{ font-family: 'sfmovieposter-bold'; font-size: 24px; }
+
+
+
+	.view-dom-id-6 { text-align: center; }
+	.view-dom-id-6 h2.title { text-align: center; margin-left: 0 !important; }
+	.view-dom-id-6 li { margin-bottom: 10px; }
+	.view-dom-id-6 .body-text p, .view-dom-id-6 p.pane-title{ font-size: 12px; }
+
+h2.pane-title{ padding: 0 50px; }
+	h2 span.left-sprog, h2 span.right-sprog{ background: url(../images/layout/sprog.gif) top left no-repeat; width: 12px; height: 13px; z-index: 10; display: block; position: absolute; top: 14px;  }
+		h2 span.left-sprog{ left: 20px; }
+		h2 span.right-sprog{ right: 20px; }
+
+		
+h3, h4{ font: normal normal normal 18px Arial, sans-serif; line-height: 18px; margin-top: 15px; text-transform: uppercase; }
+	h4{ font-size: 12px; margin: 10px 0 0 0; }
+
+.body-text p, .intro p{ text-align: center; line-height: 22px; }
+
+p.open-text, p.open-hours{ font-family: Arial, sans-serif; text-transform: uppercase; font-size: 30px; letter-spacing: 3px; text-align: center; line-height: 30px; width: 100%; margin: 10px 0 0 0; }
+	.wf-active p.open-text, .wf-active p.open-hours{ font-family: 'sfmovieposter-bold'; font-size: 98px; line-height: 55px; }
+	.wf-active p.open-hours{ font-size: 22px; }
+p.open-hours{ font-size: 24px; margin: 0;  }

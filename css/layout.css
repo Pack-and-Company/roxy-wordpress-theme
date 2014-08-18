@@ -1,0 +1,51 @@
+/* ================= */
+/* = Master Layout = */
+/* ================= */
+
+/* center content and keep ability to use full width stripes */
+#header-inner, #footer-inner, #main{ position: relative; width: 940px; padding: 0 10px; margin: 0 auto; }
+
+#header, #footer{
+	min-width: 940px;
+}
+		
+/* footer region */
+
+#footer{
+	margin-top: 50px; padding-top: 25px;
+}
+
+#footer.fixed{
+	position:absolute; bottom: 0; width: 100%;
+}
+
+	#footer-inner{
+		position: relative; height: 75px;
+	}
+
+
+/* =============================== */
+/* =        Panel Layouts        = */
+/* =============================== */
+body #main .main-right .location-image{ border: 1px solid #999; }
+
+.page-container, .pane-block-3{ position: relative; padding-bottom: 40px; overflow: hidden; }
+	.view-dom-id-2 .page-container{ border: none; padding-bottom: 20px; }
+	.intro, .body-text{ position: relative; display: inline-block; float: left; margin-top: 5px; width: 100%; }
+		
+/* KEY STAFF LIST */
+ul.key-staff{ position: relative; width: 960px; list-style: none; padding: 0; margin: 40px 0; }
+	li.staff-member{ display: inline-block; position: relative; width: 420px; border-right: 1px solid #c1b49a; padding: 0 50px; }
+		li.staff-member.last{ border: none; padding-right: 0; float: right; }
+		li.staff-member.first{ padding-left: 0; float: left; }
+			li.staff-member .staff-image { border: 1px solid #333; width: 207px; height: 135px; float: left; margin: 0 25px 10px 0; }
+			li.staff-member h3 { margin-top: 0; }
+			li.staff-member h4 { margin-bottom: 5px; height: 36px; }
+		
+/* MENUS LIST */
+.pane-page-views-panel-pane-3{ display: block; position: relative; float: left; width: 100%; padding-bottom: 20px; }
+	ul.menu-list{ width: 330px; position: relative; display: block; margin-bottom: 5px; }
+		li.menu-item{ display: inline-block; float: left; padding: 0 5px; border-right: 1px solid #666; height: 12px; line-height: 10px; }
+			li.menu-item.last{ border: none; }
+			li.menu-item.first{ padding-left: 0; }
+			

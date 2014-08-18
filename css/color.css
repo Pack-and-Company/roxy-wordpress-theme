@@ -1,0 +1,52 @@
+/* ==================================== */
+/* = Default styles for page elements = */
+/* ==================================== */
+tbody{ border-top: none; }
+
+a{ -webkit-transition: 0.4s ease-in; -moz-transition: 0.4s ease-in; }
+
+a:link{
+	color: #999;
+}
+
+a:visited{
+	color: #999;
+}
+
+a:hover{
+	color: #c1b49a;
+}
+
+a:active{
+	color: #999;
+}
+
+#footer-inner a:link, #footer-inner a:visited, #footer-inner a:active{
+	color: #ccc;
+}
+
+#footer-inner a:hover{
+	color: #FFF;
+}
+
+/* ================= */
+/* = Master Layout = */
+/* ================= */
+
+body{
+	color: #fff; background-color: #000;
+}
+	.intro p{ color: #c1b49a; }
+	
+body.section-admin{ color: #000; background-color: #FFF; }
+
+#footer{
+	color: #fff;
+	background: url(../images/layout/footer_jaggered_edge.gif) top left repeat-x #826b54;
+}
+	#inject-logo a{ 
+		position: absolute; width: 66px; height: 19px; text-indent: -9999px; bottom: 20px; right: 10px;
+		background: url(../images/layout/inject_logo.gif) top left no-repeat #826b54;
+	}
+
+p.open-hours{ color: #c1b49a; }
