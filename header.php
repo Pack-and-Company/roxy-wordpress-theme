@@ -10,9 +10,12 @@
       bloginfo( 'name' );
     ?>
   </title>
+
+  <link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="css/fonts.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="css/style.css" />
+
   <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-
-<?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
