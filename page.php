@@ -23,7 +23,7 @@
 
 		<div class="col content right">
 			<h2>DJ's</h2>
-			<p>Dance the night away to tunes from top local and international DJs.</p>
+			<p>Dance the night away to tunes from top local and international DJ's.</p>
 
 			<?php
                 $args = array(
