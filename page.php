@@ -56,7 +56,7 @@
                 }
 
                 wp_reset_postdata();
-                ?>
+            ?>
 		</div>
 	</div>
 </div>
@@ -76,14 +76,5 @@
 		</div>
 	</div>
 </div>
-
-<script type="text/javascript">
-$(document).ready(function(){
-	$('h2').html(function(){
-		var title = "<span>" + $(this).html() + "</span>";
-		$(this).html(title);
-	});
-});
-</script>
 
 <?php get_footer(); ?>
