@@ -3,10 +3,10 @@
 <div class="section main">
 	<div class="wrapper">
 		<div class="col content left">
-
-		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-		  <?php the_content(); ?>
-		<?php endwhile; wp_reset_query(); ?>
+			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+			  <?php the_content(); ?>
+			<?php endwhile; wp_reset_query(); ?>
+		</div>
 
 		<div class="col logo center">
 			<object type="application/x-shockwave-flash" 
