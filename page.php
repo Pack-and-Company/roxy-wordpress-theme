@@ -52,7 +52,7 @@
                         printf('    <h3>%s</h3>', get_post_meta($event->ID, '_event_date', true));
                         printf('    <h4>%s</h4>', $event->post_title);
 						printf('    <div class="event-details">%s%s</div>', $event_time, $door_charge);
-						printf('    %s',get_the_post_thumbnail($event->ID, array(298,424)));
+						printf('    <a href="%s">%s</a>', wp_get_attachment_url(get_post_thumbnail_id($event->ID)), get_the_post_thumbnail($event->ID, array(298,424)));
 						printf('    <div class="event-details">%s</div>', $event->post_content);
                         printf('</div>');			
                 }
