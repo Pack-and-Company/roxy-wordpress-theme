@@ -16,6 +16,9 @@
   <link type="text/css" rel="stylesheet" media="all" href="<?=get_template_directory_uri();?>/css/style.css" />
 
   <?php wp_head(); ?>
+
+  <script type="text/javascript" src="<?=get_template_directory_uri();?>/js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="<?=get_template_directory_uri();?>/js/scripts.js"></script>
 </head>
 
 <body <?php body_class(); ?>>

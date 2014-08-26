@@ -8,7 +8,6 @@ add_theme_support( 'post-thumbnails' );
 function my_init_method() {
   if(!is_admin()) {
     wp_enqueue_script( 'jquery' );
-    wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js' );
     wp_register_style( 'global', get_bloginfo('template_directory') . '/css/global.css');
     wp_enqueue_style( 'global' );
   }

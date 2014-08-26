@@ -21,7 +21,7 @@
 			</object>
 		</div>
 
-		<div class="col content right">
+		<div class="col content right events">
 			<h2>DJ's</h2>
 			<p>Dance the night away to tunes from top local and international DJ's.</p>
 
