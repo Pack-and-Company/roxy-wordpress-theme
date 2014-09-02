@@ -55,7 +55,10 @@
 						if (has_post_thumbnail($event->ID)) {
 							printf('    <a href="%s">%s</a>', wp_get_attachment_url(get_post_thumbnail_id($event->ID)), get_the_post_thumbnail($event->ID, array(298,424)));
 						}
-						printf('    <div class="event-details">%s</div>', $event->post_content);
+						$post_content = $event->post_content;
+						$post_content = apply_filters('the_content', $post_content);
+						$post_content = str_replace(']]>', ']]&gt;', $post_content);
+						printf('    <div class="event-details">%s</div>', $post_content);
                         printf('</div>');			
                 }
 
