@@ -125,3 +125,35 @@ a:active{
 .main p img {
 	margin: 20px 0;
 }
+
+/* Mobile */
+
+@media screen and (max-width: 360px) {
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .content {
+    float: none;
+    width: 100%;
+  }
+
+  .event img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+      height: 100px;
+  }
+
+  .footer .content {
+    text-align: center;
+  }
+
+}
