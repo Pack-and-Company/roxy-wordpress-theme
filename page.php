@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<div class="small-logo"></div>
+
 <div class="section main">
 	<div class="wrapper">
 		<div class="col content left">
